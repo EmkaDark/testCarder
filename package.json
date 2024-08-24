@@ -11,8 +11,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.5",
