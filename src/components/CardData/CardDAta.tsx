@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ICardData } from "../types/CardData";
+import { ICardData } from "../../types/CardData";
 import styles from "./CardData.module.scss";
 const CardDAta: FC<ICardData> = ({
   image,

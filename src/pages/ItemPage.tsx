@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ICardData } from "../types/CardData";
-import CardDAta from "../CardData/CardDAta";
-import GoBack from "../GoBack/GoBack";
+import CardDAta from "../components/CardData/CardDAta";
+import GoBack from "../components/GoBack/GoBack";
 
 const ItemPage = () => {
   const { id } = useParams();

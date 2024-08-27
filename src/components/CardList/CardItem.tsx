@@ -1,11 +1,11 @@
 import { FC } from "react";
-import { ICardData } from "../types/CardData";
+import { ICardData } from "../../types/CardData";
 import LikeButton from "./LikeButton";
 import DeleteButton from "./DeleteButton";
 import styles from "./CardList.module.scss";
-import { AppDispatch } from "../redux/Store";
+import { AppDispatch } from "../../redux/Store";
 import { useDispatch } from "react-redux";
-import { deleteItem, toogleLike } from "../redux/DataState/DataSlice";
+import { deleteItem, toogleLike } from "../../redux/DataState/DataSlice";
 interface iItemProps {
   data: ICardData;
 }
