@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://emkadark.github.io/testCarder",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.5",
